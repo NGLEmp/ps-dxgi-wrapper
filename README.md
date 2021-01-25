@@ -72,7 +72,7 @@ Including all builds between releases.
 ## Windows 7
 
 1. Install Microsoft Direct3D D3D12On7.
-2. Comment `goto End` line #18 in `install.cmd` to install required libraries.
+2. Comment `goto End` line [#18](install.cmd#L18) in `install.cmd` to install required libraries.
 3. Install all components using `install.cmd`.
 
 WARNING: NOT TESTED
@@ -80,7 +80,7 @@ WARNING: NOT TESTED
 ## Windows 8 and 8.1
 
 1. Use `d3d12=vulkan` option in `gpu.ini`
-2. Comment `goto End` line #18 in `install.cmd` to install required libraries.
+2. Comment `goto End` line [#18](install.cmd#L18) in `install.cmd` to install required libraries.
 3. Install all components using `install.cmd`.
 
 WARNING: NOT TESTED
