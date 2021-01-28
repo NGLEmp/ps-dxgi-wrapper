@@ -3,7 +3,7 @@
 # Intro
 
 In Photoshop 2021 Direct3D interface was updated to version 12 and some systems don't have support of [IDXGIFactory6](https://docs.microsoft.com/en-us/windows/win32/api/dxgi1_6/nn-dxgi1_6-idxgifactory6) interface and its methods.
-[DXGI wrapper for Photoshop](https://github.com/NGLEmp/ps-dxgi-wrapper) is useful if you get "Could not complete your request because of a program error" message related to your videocard detection (Detected Graphics Processor: none).
+[DXGI wrapper for Photoshop](https://github.com/NGLEmp/ps-dxgi-wrapper) is useful if you get "Could not complete your request because of a program error" message related to your video card detection (Detected Graphics Processor: none).
 
 ![](img/error.png)
 
@@ -30,7 +30,7 @@ Target product: Adobe Photoshop 2021
 
 - Run `uninstall.cmd` to uninstall. Change `dest` path if needed.
 
-# Congiguration
+# Configuration
 
 ## vcruntime_ldr.ini
 
@@ -42,10 +42,10 @@ Target product: Adobe Photoshop 2021
 
 | Option	| Values	| Comment	|
 |-----		|------		|---------|
-|d3d12		|		|Infterface used to initalize internal components
+|d3d12		|		|Interface used to initialize internal components
 |		|auto		|Default
 |		|d3d12on7	|Use DirectX 12 on Windows 7 (requires additional components)
-|		|vulkan		|Use Vulkan API. Used for videocard info only.
+|		|vulkan		|Use Vulkan API. Used for video card info only.
 |		|		|May be used on Wine and Windows 7, 8, 8.1. NOT TESTED.
 |owlfix		|		|Fix bug in `adobeowl.dll` (white screen or crash at startup splash screen)
 |		|auto		|Default, must be changed. Always verify manually before usage.
